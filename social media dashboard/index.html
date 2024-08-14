@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="box">
+        <header>
+            <h2>Social Media Website - Manish Lakkavatri</h2>
+        </header>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Analytics</a></li>
+            <li><a href="#">Settings</a></li>
+            <!-- Add more menu items as needed -->
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="dashboard-section">
+            <h2>Overview</h2>
+            <div class="stats">
+                <div class="chart-container">
+                    <h3>Followers</h3>
+                    <canvas id="followersChart"></canvas>
+                </div>
+                <div class="chart-container">
+                    <h3>Likes</h3>
+                    <canvas id="likesChart"></canvas>
+                </div>
+                <div class="chart-container">
+                    <h3>Retweets</h3>
+                    <canvas id="retweetsChart"></canvas>
+                </div>
+                <div class="chart-container">
+                    <h3>Impressions</h3>
+                    <canvas id="impressionsChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="dashboard-section">
+            <h2>Additional Data</h2>
+            <div class="additional-data">
+                <div class="chart-container">
+                    <h3>Data Set 1</h3>
+                    <canvas id="dataSet1Chart"></canvas>
+                </div>
+                <div class="chart-container">
+                    <h3>Data Set 2</h3>
+                    <canvas id="dataSet2Chart"></canvas>
+                </div>
+                <div class="chart-container">
+                    <h3>Data Set 3</h3>
+                    <canvas id="dataSet3Chart"></canvas>
+                </div>
+                <div class="chart-container">
+                    <h3>Data Set 4</h3>
+                    <canvas id="dataSet4Chart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="dashboard-section">
+            <h2>Tables</h2>
+            <div class="tables">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Column 1</th>
+                            <th>Column 2</th>
+                            <th>Column 3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Data 1</td>
+                            <td>Data 2</td>
+                            <td>Data 3</td>
+                        </tr>
+                        <tr>
+                            <td>Data 4</td>
+                            <td>Data 5</td>
+                            <td>Data 6</td>
+                        </tr>
+                        <!-- Add more rows as needed -->
+                    </tbody>
+                </table>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Column A</th>
+                            <th>Column B</th>
+                            <th>Column C</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Data A1</td>
+                            <td>Data B1</td>
+                            <td>Data C1</td>
+                        </tr>
+                        <tr>
+                            <td>Data A2</td>
+                            <td>Data B2</td>
+                            <td>Data C2</td>
+                        </tr>
+                        <!-- Add more rows as needed -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
